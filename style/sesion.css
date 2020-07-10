@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Oxygen&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.menu-content{
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    top: 0;
+    background-color: #42455a;
+    z-index: 1;
+}
+.menu-content ul{
+    display: inline-flex;
+    margin-top: 10px;
+}
+.menu-content ul li{
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+    transition: .5s;
+}
+.menu-content ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #ecf0f1;
+}
+.menu-content ul li:hover{
+    background-color: #7f8c8d;
+}
+body{
+    overflow: hidden;
+    height: 150vh;
+}
+.fondo{
+    position: fixed;
+	bottom: 0;
+	left: 0;
+	height: 100%;
+    z-index: -1;
+    transition: .3s all;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    margin: 100px;
+    transition: .3s;
+}
+.container img{
+    height: 300px;
+    transition: .3s;
+}
+.formulario-div{
+    position: absolute;
+    width: 500px;
+    height: 600px;
+    left: 50%;
+    top:10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.formulario-div h1{
+    margin-top: 0;
+    color: #38d39f;
+    font-family: 'Oxygen', sans-serif;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.formulario-div form{
+    flex-direction: column;
+    display: flex;
+    width: 300px;
+}
+.formulario-div img{
+    width: 150px;
+}
+.formulario-div form h3{
+    font-size: 15px;
+    color: #5e5e5e;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+.formulario-div form .input{
+    background: transparent;
+    outline: none;
+    color: chocolate;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    border: none;
+    border-bottom: 3px solid #38d39f;
+}
+.formulario-div form .btn{
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    border: 3px solid;
+    box-shadow: 0px 2px 14px 1px rgb(255, 255, 255);
+    background-color: #38d39f;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: .1s;
+}
+.formulario-div form .btn:active{
+    transform: scale(0.9);
+}
