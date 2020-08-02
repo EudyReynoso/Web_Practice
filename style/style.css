@@ -37,7 +37,7 @@
     height: 100vh;
     display: flex;
     position: relative;
-    background-color: teal;
+    background-color: rgb(5, 112, 112);
     justify-content: center;
 }
 .sec-1 .text-content{
@@ -67,12 +67,12 @@
 }
 .img-content{
     position: absolute;
-    top: 40%;
+    top: 50%;
     width: 80%;
     height: 400px;
     display: inline-flex;
     justify-content: space-between;
 }
 .img-content img{
-    width: 300px;
+    width: 350px;
 }
