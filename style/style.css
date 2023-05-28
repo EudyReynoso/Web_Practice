@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 .menu-content{
-    position: fixed;
+    position: fixed; /**/
     height: 80px;
     width: 100%;
     background-color: #42455a;
@@ -22,15 +22,15 @@
     transition: .5s;
 }
 .menu-content ul li a{
-    text-decoration: none;
+    text-decoration: none;/**/
     font-size: 15px;
-    font-family: 'Open Sans', sans-serif;
-    letter-spacing: 3px;
+    font-family: 'Open Sans', sans-serif;/**/
+    letter-spacing: 3px;/**/
     text-transform: uppercase;
     color: #ecf0f1;
 }
 .menu-content ul li:hover{
-    background-color: #7f8c8d;
+    background-color: #7f8c8d;/**/
 }
 .sec-1{
     width: 100%;
@@ -42,10 +42,10 @@
 }
 .sec-1 .text-content{
     width: 800px;
-    margin-top: 150px;
+    margin-top: 150px;/**/
     padding: 1px;
     height: 500px;
-    text-align: center;
+    text-align: center;/**/
 }
 .sec-1 .text-content h1{
     margin-bottom: 20px;
@@ -53,7 +53,6 @@
     text-transform: uppercase;
     font-family: 'Oxygen', sans-serif;
     color: white;
-
     letter-spacing: 4px;
 }
 .sec-1 .text-content p{
